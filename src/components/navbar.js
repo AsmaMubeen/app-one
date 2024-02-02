@@ -1,11 +1,17 @@
 // import React from 'react';
 import logo from '../logo.svg';
+import '../App.css';
 
 function Navbar() {
     return (
         <header>
-            <nav>
-                <img src={logo} alt="logo" width='50px'></img>
+            <nav className="Main-nav">
+                <img src={logo} alt="logo" className='logo-image'></img>
+                <ul className="Nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
 

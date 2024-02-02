@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.Main-nav {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav-items {
+  list-style: none;
+  font-size: large;
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.Nav-items > li {
+  padding: 5px;
+}
+
+.logo-image {
+  width: 90px;
+}
+
+.container {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
