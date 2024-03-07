@@ -1,11 +1,11 @@
-// import React from 'react';
+import React from 'react';
+import '../App.css';
 
 function Footer() {
     return (
-        <footer>
+        <footer className='footer'>
             <small>© 2024 Tacha Development. All rights reserved.</small>
         </footer>
-
     )
 }
 
